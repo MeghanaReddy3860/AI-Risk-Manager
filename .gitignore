@@ -1,0 +1,32 @@
+# Environment variables
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.env
+*.db
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large generated files)
+data/synthetic/*.csv
+data/synthetic/*.json
+!data/synthetic/.gitkeep
+
+# Logs
+*.log
